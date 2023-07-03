@@ -33,7 +33,7 @@ nav{
 	font-size:2.5em;
 }
 .logo span{
-	color: #e74c3c;
+	color: rgb(0, 140, 255);
 }
 .menu a{
 	text-decoration: none;
@@ -45,21 +45,21 @@ nav{
 
 }
 .menu a:first-child{
-	color:#e74c3c;
+	color: rgb(0, 140, 255);
 }
 .menu a:hover{
-	color: #e74c3c;
+	color: rgb(0, 140, 255);
 	transition: 0.4s;
 }
 .icon i{
 	font-size:20px;
 }
 .icon i:hover{
-	color: #e74c3c;
+	color: rgb(0, 140, 255);
 }
 .icon a{
 	padding:10px 20px;
-	background:#e74c3c;
+	background: rgb(0, 140, 255);
 	color:white;
 	text-decoration: none;
 	margin-left:30px;
@@ -67,7 +67,7 @@ nav{
 }
 .icon a:hover{
 	background: transparent;
-	border:1px solid #e74c3c;
+	border:1px solid rgb(0, 140, 255);
 	color: black;
 	transition: 0.4s ease;
 }
@@ -100,7 +100,7 @@ nav{
 .h-text button{
 	width: 30%;
 	padding:20px;
-	background: #e74c3c;
+	background: rgb(0, 140, 255);
 	font-size: 20px;
 	border:none;
 	outline: none;
@@ -135,12 +135,12 @@ nav{
 
 	}
 	.portfolio-menu ul li:hover{
-		background:  #e74c3c;
+		background:  rgb(0, 140, 255);
 		color: white;
 		border-radius: 8px;
 	}
 	li.active{
-		background:#e74c3c;
+		background:rgb(0, 140, 255);
 		color: white;
 		border-radius: 8px;
 	}
@@ -175,7 +175,7 @@ nav{
 
 }
 .member-info h1 span{
-	color:#e74c3c;
+	color:rgb(0, 140, 255);
 }
 .member-card{
 	text-align: center;
@@ -258,7 +258,7 @@ footer{
 	right: 0;
 	padding: 20px;
 	width: 30%;
-	background: #e74c3c;
+	background: rgb(0, 140, 255);
 	color: white;
 	border:none;
 	outline: none;
@@ -303,3 +303,4 @@ footer{
 #Information:hover{
 	color: grey;
 }
+
