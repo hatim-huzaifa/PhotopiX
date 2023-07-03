@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Photoweb </title>
+	<title> PhotopiX </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -35,7 +36,7 @@
 	</section>
 </header>
 
-<section class="filter-gallery">
+<section class="filter-gallery" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
 	<div class="portfolio-menu">
 			<ul>
 				<li class="active" data-filter="*"> All</li>
@@ -137,7 +138,7 @@
 	</div>	
 
 
-	<div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
+	<div class="f-contact" data-aos="zoom-in-up" data-aos-offset="210">
 		<div>
 			<h1>Information</h1>
 			<p id="Information">Lorem ipsum dolor sit amet, consectetur elit. Nihil sit dicta.</p>
@@ -203,6 +204,11 @@
 		});
 		return false;
 	});
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
 </script>
 
 </body>
